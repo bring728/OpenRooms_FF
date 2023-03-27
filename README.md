@@ -8,9 +8,7 @@ This is the official webpage for [MAIR](https://bring728.github.io/mair.project/
 OpenRooms FF(Forward Facing) is a dataset that extends [OpenRooms](https://github.com/ViLab-UCSD/OpenRooms#dataset-creation) into a multi-view setup. Each image set consists of 9 images looking in the same direction. For a detailed description of dataset creation, please refer to the paper's supplementary. For any questions, please email: happily@kist.re.kr
 
 ## Dataset Overview
-Since OpenRooms FF is based on images from OpenRooms, OpenRooms FF's scenes are also rendered in 6 versions: `main_xml`, `main_xml1`, `mainDiffMat_xml`, `mainDiffMat_xml1`, `mainDiffLight_xml` and `mainDiffLight_xml1``
-
-In the following, we explain each data type and how to read it. The name of the file is <openrooms_image_index>_<data_type>_<view_index>.<file_type> openrooms_image_index indicates the index corresponding to the original openrooms image. data_type indicates the type of data (ex. im, imnormal, immask, etc.) and file_type indicates the file extension (png, hdr, etc.). view_index represents the multi-view index, in our case it is 1-9. 
+In the following, we explain each data details and how to read it. Since OpenRooms FF is based on images from OpenRooms, OpenRooms FF's scenes are also rendered in 6 versions: `main_xml`, `main_xml1`, `mainDiffMat_xml`, `mainDiffMat_xml1`, `mainDiffLight_xml` and `mainDiffLight_xml1`. The format of the file name is <openrooms_image_index>_<data_type>_<view_index>.<file_type> openrooms_image_index indicates the index corresponding to the original openrooms image, data_type indicates the type of data (ex. im, imnormal, immask, etc.), view_index indicates the multi-view index as shown in the image below, and file_type indicates the file extension (png, hdr, etc.).
 
 <img src = "https://github.com/bring728/OpenRooms_FF/blob/main/example1.png" width="640" height="240">
 
