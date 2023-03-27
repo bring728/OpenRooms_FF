@@ -43,10 +43,10 @@ The training/testing split of the scenes can be found in [scene split](https://d
     ```
 
 
-4. **[Predicted Depth](https://drive.google.com/file/d/1YEGHUwerrwmD_ZGSkVKSnW7gy99jkhcI/view?usp=share_link)**: We also provide predicted 480 × 460 depth maps `<img_ind>_cdsdepthest_<view_ind>.dat` and its confidence map `<img_ind>_cdsconf_<view_ind>.dat` obtained using [CDS-MVSNet](https://github.com/TruongKhang/cds-mvsnet) that we used in our experiments. The method of reading the file is the same as above.
+4. **[Predicted Depth](https://drive.google.com/file/d/1YEGHUwerrwmD_ZGSkVKSnW7gy99jkhcI/view?usp=share_link)**: We also provide predicted 480 × 640 depth maps `<img_ind>_cdsdepthest_<view_ind>.dat` and its confidence map `<img_ind>_cdsconf_<view_ind>.dat` obtained using [CDS-MVSNet](https://github.com/TruongKhang/cds-mvsnet) that we used in our experiments. The method of reading the file is the same as above.
 
 
-5. **[Mask](https://drive.google.com/file/d/1kmBv8WL_ePnrbbtY0-1NnvLI6LhHXsCv/view?usp=share_link)**: The 480 × 460 grey scale mask `<img_ind>_immask_<view_ind>.png` for light sources. The pixel value 0 represents the region of environment maps. The pixel value 0.5 represents the region of lamps. Otherwise, the pixel value will be 1. 
+5. **[Mask](https://drive.google.com/file/d/1kmBv8WL_ePnrbbtY0-1NnvLI6LhHXsCv/view?usp=share_link)**: The 480 × 640 grey scale mask `<img_ind>_immask_<view_ind>.png` for light sources. The pixel value 0 represents the region of environment maps. The pixel value 0.5 represents the region of lamps. Otherwise, the pixel value will be 1. 
 
 
 6. **[SVLighting](https://drive.google.com/file/d/15xg7o0b_7M1o0-_vLk1iQJ3ROIqfk617/view?usp=share_link)**: The (120 × 8) × (160 × 16) per-pixel environment maps `<img_ind>_imenvlow_<view_ind>.hdr`. The spatial resolution is 120 x 160 while the environment map resolution is 8 x 16. To read the per-pixel environment maps, we can use the following python commands.
