@@ -64,6 +64,7 @@ The training/testing split of the scenes can be found in [scene split](https://d
 
 8. **[Camera](https://drive.google.com/file/d/1Z1TN71qJ26zypxcrQn5pweaFRe2xu1C3/view?usp=share_link)**: The 3 x 6 x 9 Camera intrinsic and extrinsic parameter and scene boundary `<img_ind>_cam_mats.npy`.
     ```python
+    # Read all cameras (3 x 6 x 9).
     cam_mats = np.load(camName)
     # Read camera 5 (view_ind is 5)
     cam_5 = cam_mats[:, :, 4]
