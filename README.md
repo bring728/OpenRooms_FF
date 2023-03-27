@@ -51,10 +51,10 @@ The training/testing split of the scenes can be found in [scene split](https://d
 
 6. **[SVLighting](https://drive.google.com/file/d/15xg7o0b_7M1o0-_vLk1iQJ3ROIqfk617/view?usp=share_link)**: The (120 × 8) × (160 × 16) per-pixel environment maps `<img_ind>_imenvlow_<view_ind>.hdr`. The spatial resolution is 120 x 160 while the environment map resolution is 8 x 16. To read the per-pixel environment maps, we can use the following python commands.
     ```python
-    # Read the envmap of resolution 1920 x 5120 x 3 in RGB format
+    # Read the envmap of resolution 960 x 2560 x 3 in RGB format
     env = cv2.imread(imName, -1)[:, :, ::-1]
     # Reshape and permute the per-pixel environment maps
-    env = env.reshape(120, 16, 160, 32, 3)
+    env = env.reshape(120, 8, 160, 16, 3)
     env = env.transpose(0, 2, 1, 3, 4)
     ```
     We recommend using [Rclone](https://rclone.org/) to avoid slow or unstable downloads.
