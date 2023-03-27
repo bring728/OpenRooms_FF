@@ -43,7 +43,7 @@ The training/testing split of the scenes can be found in [scene split](https://d
     ```
 
 
-4. **[Predicted Depth](https://drive.google.com/file/d/1YEGHUwerrwmD_ZGSkVKSnW7gy99jkhcI/view?usp=share_link)**: We also provide SOTA MVS([CDS-MVSNet])(https://github.com/TruongKhang/cds-mvsnet) 480 × 460 depth maps `<img_ind>_cdsdepthest_<view_ind>.dat` and confidence map `<img_ind>_cdsconf_<view_ind>.dat` that we used in our experiments. The method of reading the file is the same as above.
+4. **[Predicted Depth](https://drive.google.com/file/d/1YEGHUwerrwmD_ZGSkVKSnW7gy99jkhcI/view?usp=share_link)**: We also provide [SOTA MVS](https://github.com/TruongKhang/cds-mvsnet) 480 × 460 depth maps `<img_ind>_cdsdepthest_<view_ind>.dat` and confidence map `<img_ind>_cdsconf_<view_ind>.dat` that we used in our experiments. The method of reading the file is the same as above.
 
 
 5. **[Mask](https://drive.google.com/file/d/1kmBv8WL_ePnrbbtY0-1NnvLI6LhHXsCv/view?usp=share_link)**: The 480 × 460 grey scale mask `<img_ind>_immask_<view_ind>.png` for light sources. The pixel value 0 represents the region of environment maps. The pixel value 0.5 represents the region of lamps. Otherwise, the pixel value will be 1. 
