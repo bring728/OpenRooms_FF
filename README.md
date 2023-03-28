@@ -70,10 +70,10 @@ The training/testing split of the scenes can be found in [this link](https://dri
     ```python
     # Read all cameras (3 x 6 x 9).
     cam_mats = np.load(camName)
-    # Read camera 5 (view_ind is 5)
+    # Read camera 5 (<view_ind> is 5)
     cam_5 = cam_mats[:, :, 4]
     
-    # Read camera 1 (view_ind is 1)
+    # Read camera 1 (<view_ind> is 1)
     cam_1 = cam_mats[:, :, 0]
     
     # read camera to world matrix (3 x 4)
