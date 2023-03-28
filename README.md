@@ -90,7 +90,7 @@ The training/testing split of the scenes can be found in [this link](https://dri
     ```
 
 ## Related Datasets
-The OpenRooms FF dataset is built on several prior works, as noted below. Please refer to them for the respective license details and terms of use when creating your own dataset using OpenRooms.
+The OpenRooms FF dataset is built on several prior works, as noted below.
 1. **[OpenRooms dataset](https://github.com/ViLab-UCSD/OpenRooms)**: The original OpenRooms dataset.
 1. **[ScanNet dataset](http://www.scan-net.org/)**: The real 3D scans of indoor scenes.
 1. **[Scan2cad dataset](https://github.com/skanti/Scan2CAD)**: The alignment of CAD models to the scanned point clouds.
