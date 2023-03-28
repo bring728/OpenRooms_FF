@@ -62,7 +62,7 @@ The training/testing split of the scenes can be found in [this link](https://dri
 7. **[SVLightingDirect](https://drive.google.com/file/d/1sTsyG63bo0Kn0YebYG_U8niyQ8Jskzw_/view?usp=share_link)**: The (30 × 16) × (40 × 32) per-pixel environment maps with direct illumination only `<img_ind>_imenvDirect_<view_ind>.hdr`. The spatial resolution is 30 × 40 while the environment maps resolution is 16 × 32. The direct per-pixel environment maps can be load the same way as the per-pixel environment maps. 
 
 
-8. **[Camera](https://drive.google.com/file/d/1Z1TN71qJ26zypxcrQn5pweaFRe2xu1C3/view?usp=share_link)**: The 3 x 6 x 9 Camera intrinsic and extrinsic parameter and scene boundary `<img_ind>_cam_mats.npy`.
+8. **[Camera](https://drive.google.com/file/d/1Z1TN71qJ26zypxcrQn5pweaFRe2xu1C3/view?usp=share_link)**: The 3 x 6 x 9 Camera intrinsic, extrinsic parameters and scene boundary `<img_ind>_cam_mats.npy`.
     ```python
     # Read all cameras (3 x 6 x 9).
     cam_mats = np.load(camName)
