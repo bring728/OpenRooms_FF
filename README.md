@@ -86,3 +86,16 @@ The training/testing split of the scenes can be found in [this link](https://dri
     # minimum depth, maximum depth.
     min_z, max_z, _ = cam_1[:, 5]
     ```
+
+## Citation
+If you find our work is useful, please consider cite:
+```
+@article{choi2023mair,
+  title={MAIR: Multi-view Attention Inverse Rendering with 3D Spatially-Varying Lighting Estimation},
+  author={Choi, JunYong and Lee, SeokYeong and Park, Haesol and Jung, Seung-Won and Kim, Ig-Jae and Cho, Junghyun},
+  journal={arXiv preprint arXiv:2303.12368},
+  year={2023}
+}
+
+```
+
