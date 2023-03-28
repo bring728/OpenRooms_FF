@@ -89,6 +89,18 @@ The training/testing split of the scenes can be found in [this link](https://dri
     min_z, max_z, _ = cam_1[:, 5]
     ```
 
+## Related Datasets
+The OpenRooms FF dataset is built on several prior works, as noted below. Please refer to them for the respective license details and terms of use when creating your own dataset using OpenRooms.
+1. **[OpenRooms dataset](https://github.com/ViLab-UCSD/OpenRooms)**: The original OpenRooms dataset.
+1. **[ScanNet dataset](http://www.scan-net.org/)**: The real 3D scans of indoor scenes.
+1. **[Scan2cad dataset](https://github.com/skanti/Scan2CAD)**: The alignment of CAD models to the scanned point clouds.
+1. **[Laval outdoor lighting dataset](http://outdoor.hdrdb.com/)**: HDR outdoor environment maps
+1. **[HDRI Haven lighting dataset](https://hdrihaven.com/)**: HDR outdoor environment maps
+1. **[PartNet dataset](https://partnet.cs.stanford.edu/)**: CAD models
+2. **[Adobe Stock](https://stock.adobe.com/search?filters%5Bcontent_type%3A3d%5D=1&filters%5B3d_type_id%5D%5B0%5D=3&load_type=3d+lp)**: High-quality microfacet SVBRDF texture maps. Please license the materials from Adobe Stock.
+
+
+
 ## Citation
 If you find our work is useful, please consider cite:
 ```
