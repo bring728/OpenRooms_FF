@@ -15,7 +15,7 @@ OpenRooms FF(Forward Facing) is a dataset that extends [OpenRooms](https://githu
 ## Dataset Overview
 Since OpenRooms FF is based on images from OpenRooms, OpenRooms FF's scenes are also rendered in 6 versions: `main_xml`, `main_xml1`, `mainDiffMat_xml`, `mainDiffMat_xml1`, `mainDiffLight_xml` and `mainDiffLight_xml1`. The format of the file name is `<img_ind>_<data_type>_<view_ind>`.
 
-`<img_ind>` indicates the index corresponding to the original openrooms image. For example, if the file name is `main_xml1/scene0001_00/8_*`, it means that it was reproduced from `main_xml1/scene0001_00/*_8` of the original openrooms. `<data_type>` indicates the type of data (ex. im, imnormal, immask, etc.) and `<view_ind>` indicates the multi-view index (1-9) as shown in the image below. 
+`<img_ind>` indicates the index corresponding to the original openrooms image. For example, if the file name is `main_xml1/scene0001_00/8_*`, it means that it was reproduced from the image(camera pose) of `main_xml1/scene0001_00/*_8` in the original openrooms. `<data_type>` indicates the type of data (ex. im, imnormal, immask, etc.) and `<view_ind>` indicates the multi-view index (1-9) as shown in the image below. 
 
 <img src = "https://github.com/bring728/OpenRooms_FF/blob/main/example1.png" width="640" height="240">
 
