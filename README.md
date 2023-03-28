@@ -5,7 +5,7 @@
 
 This is the official webpage for [MAIR](https://bring728.github.io/mair.project/)'s OpenRooms FF dataset. 
 
-**For full access to the dataset, please fill out the form in [this file]() and send it to jhcho@kist.re.kr We will then give you access to the dataset via your email.**
+_**For full access to the dataset, please fill out the form in [this file]() and send it to jhcho@kist.re.kr We will then give you access to the dataset via your email.**_
 
 ## Dataset Introduction
 OpenRooms FF(Forward Facing) is a dataset that extends [OpenRooms](https://github.com/ViLab-UCSD/OpenRooms#dataset-creation) into a multi-view setup. Each image set consists of 9 images looking in the same direction. For a detailed description of dataset creation, please refer to the [paper](https://arxiv.org/abs/2303.12368)'s supplementary. 
