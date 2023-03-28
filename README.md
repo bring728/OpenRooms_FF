@@ -3,12 +3,12 @@
 ### [Project Page](https://bring728.github.io/mair.project/) | [Paper](https://arxiv.org/abs/2303.12368) 
 
 
-This is the official webpage for [MAIR](https://bring728.github.io/mair.project/)'s OpenRooms FF dataset. 
+This is the official webpage for MAIR's OpenRooms FF dataset. 
 
-_**For full access to the dataset, please fill out the form in [this file]() and send it to jhcho@kist.re.kr We will then give you access to the dataset via your email.**_
+_**For full access to the dataset, please fill out the form in [this file]() and send it to jhcho@kist.re.kr. We will then give you access to the dataset via your email.**_
 
 ## Dataset Introduction
-OpenRooms FF(Forward Facing) is a dataset that extends [OpenRooms](https://github.com/ViLab-UCSD/OpenRooms#dataset-creation) into a multi-view setup. Each image set consists of 9 images looking in the same direction. For a detailed description of dataset creation, please refer to the [paper](https://arxiv.org/abs/2303.12368)'s supplementary. 
+OpenRooms FF(Forward Facing) is a dataset that extends [OpenRooms](https://github.com/ViLab-UCSD/OpenRooms#dataset-creation) into a multi-view setup. Each image set consists of 9 images looking in the same direction. For a detailed description of dataset creation, please refer to the paper's supplementary. 
 
 ## Dataset Overview
 Since OpenRooms FF is based on images from OpenRooms, OpenRooms FF's scenes are also rendered in 6 versions: `main_xml`, `main_xml1`, `mainDiffMat_xml`, `mainDiffMat_xml1`, `mainDiffLight_xml` and `mainDiffLight_xml1`. The format of the file name is <img_ind>\_<data_type>\_<view_ind>.<file_type>.
