@@ -17,6 +17,10 @@ Since OpenRooms FF is based on images from OpenRooms, OpenRooms FF's scenes are 
 
 `<img_ind>` indicates the index corresponding to the original openrooms image. For example, if the file name is `main_xml1/scene0001_00/8_*`, it means that it was reproduced from the image(camera pose) of `main_xml1/scene0001_00/*_8` in the original openrooms. `<data_type>` indicates the type of data (ex. im, imnormal, immask, etc.) and `<view_ind>` indicates the multi-view index (1-9) as shown in the image below. 
 
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
+
 <img src = "https://github.com/bring728/OpenRooms_FF/blob/main/example1.png" width="640" height="240">
 
 The training/testing split of the scenes can be found in [this link](https://drive.google.com/file/d/1HG93tgiShdizzUW80NY19DOLCUG_mAWS/view?usp=share_link). 
