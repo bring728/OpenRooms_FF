@@ -13,7 +13,7 @@ In the following, we explain each data details and how to read it. Since OpenRoo
 
 <img src = "https://github.com/bring728/OpenRooms_FF/blob/main/example1.png" width="640" height="240">
 
-The training/testing split of the scenes can be found in [scene split](https://drive.google.com/file/d/1HG93tgiShdizzUW80NY19DOLCUG_mAWS/view?usp=share_link). 
+The training/testing split of the scenes can be found in [this link](https://drive.google.com/file/d/1HG93tgiShdizzUW80NY19DOLCUG_mAWS/view?usp=share_link). 
 
 1. **[Image](https://drive.google.com/file/d/1s_hAUwfD-Uz8yqlx3jULA_HX3_qSRTPb/view?usp=share_link)**: The 480 × 640 HDR images `<img_ind>_im_<view_ind>.rgbe`, which can be read with the python command.
     ```python
