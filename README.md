@@ -22,7 +22,7 @@ Since OpenRooms FF is based on images from OpenRooms, OpenRooms FF's scenes are 
 The training/testing split of the scenes can be found in [this link](https://drive.google.com/file/d/1HG93tgiShdizzUW80NY19DOLCUG_mAWS/view?usp=share_link). 
 
 1. **[Dataset split](https://drive.google.com/file/d/1s_hAUwfD-Uz8yqlx3jULA_HX3_qSRTPb/view?usp=share_link)**: This is the Training / Test dataset split used in the MAIR experiment.
-    However, since this split is not divided per scene, we strongly recommend using this original OpenRooms [Training](https://drive.google.com/file/d/1ZhHaOPtnICGnEp9cgXT0HPaEm2SkdIJJ/view?usp=sharing) / [Test](https://drive.google.com/file/d/11HNfjg50Ku5ufEwiLzvRJ_SVzsk0eYU2/view?usp=sharing) dataset split.
+    However, since this split is not divided per scene, **we strongly recommend using this original OpenRooms [Training](https://drive.google.com/file/d/1ZhHaOPtnICGnEp9cgXT0HPaEm2SkdIJJ/view?usp=sharing) / [Test](https://drive.google.com/file/d/11HNfjg50Ku5ufEwiLzvRJ_SVzsk0eYU2/view?usp=sharing) dataset split.**
 
 
 2. **[Image](https://drive.google.com/file/d/1s_hAUwfD-Uz8yqlx3jULA_HX3_qSRTPb/view?usp=share_link)**: The 480 × 640 HDR images `<img_ind>_im_<view_ind>.rgbe`, which can be read with the python command.
