@@ -1,6 +1,6 @@
 # MAIR: Multi-view Attention Inverse Rendering with 3D Spatially-Varying Lighting Estimation <br>
 
-### [Project Page](https://bring728.github.io/mair.project/) | [Paper](https://arxiv.org/abs/2303.12368) 
+### [Project Page](https://bring728.github.io/mair.project/) | [Paper](https://arxiv.org/abs/2303.12368) | [Code(Test Only)](https://github.com/bring728/MAIR_Open) 
 
 
 This is the official webpage for MAIR's OpenRooms FF dataset. 
